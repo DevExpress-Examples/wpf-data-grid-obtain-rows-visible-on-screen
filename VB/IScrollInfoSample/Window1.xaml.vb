@@ -41,18 +41,54 @@ Namespace Sample
         Public Sub New()
             InitializeComponent()
             list = New List(Of TestData)()
-            list.Add(New TestData() With {.Number = 1, .Text = "row1"})
-            list.Add(New TestData() With {.Number = 2, .Text = "row2"})
-            list.Add(New TestData() With {.Number = 3, .Text = "row3"})
-            list.Add(New TestData() With {.Number = 1, .Text = "row4"})
-            list.Add(New TestData() With {.Number = 2, .Text = "row5"})
-            list.Add(New TestData() With {.Number = 3, .Text = "row6"})
-            list.Add(New TestData() With {.Number = 1, .Text = "row7"})
-            list.Add(New TestData() With {.Number = 2, .Text = "row8"})
-            list.Add(New TestData() With {.Number = 3, .Text = "row9"})
-            list.Add(New TestData() With {.Number = 1, .Text = "row10"})
-            list.Add(New TestData() With {.Number = 2, .Text = "row11"})
-            list.Add(New TestData() With {.Number = 3, .Text = "row12"})
+            list.Add(New TestData() With { _
+                .Number = 1, _
+                .Text = "row1" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 2, _
+                .Text = "row2" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 3, _
+                .Text = "row3" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 1, _
+                .Text = "row4" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 2, _
+                .Text = "row5" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 3, _
+                .Text = "row6" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 1, _
+                .Text = "row7" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 2, _
+                .Text = "row8" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 3, _
+                .Text = "row9" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 1, _
+                .Text = "row10" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 2, _
+                .Text = "row11" _
+            })
+            list.Add(New TestData() With { _
+                .Number = 3, _
+                .Text = "row12" _
+            })
             grid.ItemsSource = list
         End Sub
 
