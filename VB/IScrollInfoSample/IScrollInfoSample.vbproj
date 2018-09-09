@@ -7,7 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{54152090-6F58-429F-88ED-9165F3B0896F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>IScrollInfoSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -54,33 +55,21 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Pdf.v14.2.Core">
     </Reference>
-    <Reference Include="DevExpress.Data.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Printing.v14.2.Core">
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Data.v14.2">
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Mvvm.v14.2">
     </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Xpf.Core.v14.2">
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Xpf.Printing.v14.2">
     </Reference>
-    <Reference Include="DevExpress.Xpf.Grid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <Private>True</Private>
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="DevExpress.Xpf.Grid.v14.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.2">
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
