@@ -16,9 +16,8 @@
         <dxg:GridControl x:Name="grid" Grid.Column="0" AutoGenerateColumns="AddNew">
             <dxg:GridControl.View>
                 <dxg:TableView x:Name="view"
-                               IsDeferredScrolling="False"
                                NewItemRowPosition="Bottom"
-                               ShowAutoFilterRow="True" />
+                               ShowAutoFilterRow="True"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
 

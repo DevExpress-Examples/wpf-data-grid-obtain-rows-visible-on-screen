@@ -25,7 +25,7 @@ Namespace Sample
             Dim scrollViewer = LayoutTreeHelper.GetVisualChildren(Me.view).OfType(Of ScrollViewer)().FirstOrDefault()
             If scrollViewer Is Nothing Then Return
             Dim bottomIndex As Integer = Convert.ToInt32(scrollViewer.ViewportHeight + scrollViewer.VerticalOffset)
-            For i As Integer = Me.grid.View.TopRowIndex To bottomIndex
+            For i As Integer = Me.grid.View.TopRowIndex To bottomIndex - 1
                 Dim handle = Me.grid.GetRowHandleByVisibleIndex(i)
                 If Not Me.grid.IsValidRowHandle(handle) Then Continue For
                 Dim item = TryCast(Me.grid.GetRow(handle), Item)
