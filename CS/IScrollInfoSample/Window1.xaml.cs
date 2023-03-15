@@ -24,7 +24,7 @@ namespace Sample {
 
             int bottomIndex = Convert.ToInt32(scrollViewer.ViewportHeight + scrollViewer.VerticalOffset);
 
-            for (int i = grid.View.TopRowIndex; i <= bottomIndex; i++) {
+            for (int i = grid.View.TopRowIndex; i < bottomIndex; i++) {
                 var handle = grid.GetRowHandleByVisibleIndex(i);
                 if (!grid.IsValidRowHandle(handle))
                     continue;
