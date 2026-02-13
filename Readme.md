@@ -29,7 +29,7 @@ The [TopRowIndex](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBa
 * [WPF Data Grid - Focus a Cell with the Specified Value](https://github.com/DevExpress-Examples/how-to-focus-a-cell-with-the-specified-value-e1544)
 * [WPF Data Grid - Add and Remove Rows in Code](https://github.com/DevExpress-Examples/how-to-add-and-remove-rows-in-code)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-obtain-rows-visible-on-screen&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-obtain-rows-visible-on-screen&~~~was_helpful=no)
 
